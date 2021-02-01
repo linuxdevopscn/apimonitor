@@ -52,16 +52,7 @@ def visit_site(url, v_type='get', postdata=None, keyword=None):
         pass
 
 if __name__ == '__main__':
-    # result = visit_site('http://www.dogedoge.com')
-    # print(result)
     # query_args = {'username': 'admin', 'password':'123456'}
     # result = visit_site('http://localhost:8080/api/loginpost', 'post', query_args)
-    # result = visit_site('https://www.xiatianip.com/', 'get', keyword="372198644")
     # print(result)
     pass
-    # try:
-    #     1/0
-    # # except ZeroDivisionError as e:
-    # #     print(e)
-    # except Exception as e:
-    #     print("error", e)

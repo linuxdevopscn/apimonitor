@@ -7,12 +7,13 @@ from visit import visit_site
 import log
 logger = log.logging.getLogger("monitor")
 
-url_task = {}
+
 
 def tstamp():
     return int(time.time())
 
 def update_urltask():
+    url_task = {}
     global url_task
     # 更新URL列表时间
     db_result = db.url_get()

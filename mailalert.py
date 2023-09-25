@@ -26,7 +26,7 @@ def send_email(title, msg, receivers):
         smtp.set_debuglevel(0)
         smtp.ehlo(host_server)
         smtp.login(sender, pwd)
-        smtp.sendmail('flowdata@qq.com',
+        smtp.sendmail(sender,
                 receivers,
                 message.as_string())
         smtp.quit()
